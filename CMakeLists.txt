@@ -13,4 +13,6 @@ add_executable(p5
         FindMax.cpp
         FindMax.h
         RunFind.cpp
-        RunFind.h)
+        RunFind.h
+        Intersection.cpp
+        Intersection.h)
