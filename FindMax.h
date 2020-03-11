@@ -1,6 +1,7 @@
 #ifndef _FINDMAX_H
 #define	_FINDMAX_H
 #include "RunFind.h"
+#include "Intersection.h"
 
 class FindMax {
 public:
