@@ -16,5 +16,8 @@ add_executable(p5
         RunFind.h
         Intersection.cpp
         Intersection.h
-        Graph.cpp
-        Graph.h)
+        BinaryHeap.cpp
+        BinaryHeap.h
+        vector.cpp
+        vector.h
+        dsexceptions.h)

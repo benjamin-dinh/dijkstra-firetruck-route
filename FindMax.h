@@ -7,6 +7,7 @@ class FindMax {
 public:
   FindMax(int citySize, const StreetBlock *streets, int numStreets);
   void find(Coordinate fireHouses[4], Coordinate *furthest, int *time);
+  Intersection city[1000][1000];
 }; // class FindMax
 
 #endif	/* _FINDMAX_H */
