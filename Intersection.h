@@ -4,7 +4,6 @@
 
 #ifndef P5_INTERSECTION_H
 #define P5_INTERSECTION_H
-#include "RunFind.h"
 
 class Vertices{
  public:
@@ -12,6 +11,7 @@ class Vertices{
   int y;
   int time;
   Vertices();
+  Vertices(int m, int n, int t);
 };
 
 class Intersection{
@@ -19,8 +19,7 @@ class Intersection{
   bool isKnown;
   Vertices previousVertex;
   int distanceToVertex;
-  int count; // count for number of adjacent vertices
-  int count2; // count for stopping entire process
+  int adjCount; // count for number of adjacent vertices
   Intersection();
   Vertices adjacencyList[4];
 };

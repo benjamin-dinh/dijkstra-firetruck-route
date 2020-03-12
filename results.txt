@@ -1,0 +1,12 @@
+Scores for ECS 36C P5
+You need to create an authors.csv file!!!! No one will receive credit for this assignment
+
+Addresses used: p5@ucdavis.edu
+ 
+This is a run of p5 with a one minute limit on the time allowed per run.
+Scores from p5 for: 
+Makefile optimization check: 
+OK
+STL check:
+OK
+FindMax.out was not created by make, so zero for assignment.

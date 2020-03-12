@@ -11,9 +11,16 @@ Vertices::Vertices(){
   time = NULL;
 }
 
+Vertices::Vertices(int m, int n, int t){
+  x=m;
+  y=n;
+  time=t;
+}
+
 Intersection::Intersection() {
   isKnown = false;
-  count = 0;
+  distanceToVertex = 1000000;
+  adjCount = 0;
 //  for (int i = 0; i<4; i++){
 //    adjacencyList[i].x = NULL;
 //    adjacencyList[i].y = NULL;

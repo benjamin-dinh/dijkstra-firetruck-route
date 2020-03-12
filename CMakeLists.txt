@@ -16,8 +16,6 @@ add_executable(p5
         RunFind.h
         Intersection.cpp
         Intersection.h
-        BinaryHeap.cpp
         BinaryHeap.h
-        vector.cpp
         vector.h
         dsexceptions.h)
