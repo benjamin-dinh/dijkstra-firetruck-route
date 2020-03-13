@@ -18,7 +18,7 @@ class Intersection{
  public:
   bool isKnown;
   Vertices previousVertex;
-  int distanceToVertex;
+  int timeToVertex;
   int adjCount; // count for number of adjacent vertices
   Intersection();
   Vertices adjacencyList[4];

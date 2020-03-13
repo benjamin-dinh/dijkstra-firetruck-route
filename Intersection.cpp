@@ -6,9 +6,9 @@
 #include <cstring>
 
 Vertices::Vertices(){
-  x = NULL;
-  y = NULL;
-  time = NULL;
+  x = 0;
+  y = 0;
+  time = 0;
 }
 
 Vertices::Vertices(int m, int n, int t){
@@ -19,7 +19,7 @@ Vertices::Vertices(int m, int n, int t){
 
 Intersection::Intersection() {
   isKnown = false;
-  distanceToVertex = 1000000;
+  timeToVertex = 1000000000;
   adjCount = 0;
 //  for (int i = 0; i<4; i++){
 //    adjacencyList[i].x = NULL;
